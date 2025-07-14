@@ -50,12 +50,15 @@ mkdir -p data/processed
 Essas pastas são utilizadas para armazenar os arquivos de entrada (raw) e os resultados processados (processed)
 
 ### 3. Crie o ambiente Poetry e instale as dependências
+```text
 pip install poetry
 poetry install
 poetry shell
+```
+
 
 ### 4. Execute a aplicação
-python main.py
+poetry run python main.py
 
 ### Resultado 
 O script principal gera o arquivo final com os clusters em data/processed/escolas_clusterizadas.csv

@@ -11,25 +11,28 @@ Este projeto realiza a **clusterização de escolas privadas** brasileiras com b
 
 ## Estrutura do Projeto
 
+```text
 clusterizacao_escolas/
-│
 ├── data/
-│ ├── raw/ 
-│ └── processed/ 
-│
-├── notebooks/ 
-├── src/ 
-  ├── clusters/
-    ├── compartilha.py
-    ├── farias_brito.py
-    ├── kepler.py
-    ├── uno.py   
-│ ├── classificadores.py
-│ └── filtros_variaveis.py
-│
-├── main.py 
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── src/
+│   ├── clusters/
+│   │   ├── compartilha.py
+│   │   ├── farias_brito.py
+│   │   ├── kepler.py
+│   │   └── uno.py
+│   ├── classificacao.py
+│   └── main.py
+├── docs/
+│   └── regras_negocio_clusters.md
+├── README.md
 ├── requirements.txt
-└── README.md
+├── pyproject.toml
+└── poetry.lock
+
+
 
 ## Como executar o projeto
 

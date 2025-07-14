@@ -31,7 +31,7 @@ clusterizacao_escolas/
 ├── requirements.txt
 ├── pyproject.toml
 └── poetry.lock
-
+```
 
 
 ## Como executar o projeto
